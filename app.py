@@ -7,8 +7,8 @@ import time
 from flask import Flask, render_template, session, url_for, redirect, request
 from telepot.namedtuple import *
 
-USERNAME = "PYTHONANYWHERE_USERNAME"
-TOKEN = "TELEGRAM_BOT_API"
+USERNAME = "fb6bcmkkkm"
+TOKEN = "6347942284:AAFUEe9WLqmF0LWTieXSsI7pzq2zCw_f5VE"
 SECRET = ''.join(random.choice(string.ascii_letters) for x in range(20))
 URL = f"https://{USERNAME}.pythonanywhere.com/{SECRET}"
 
